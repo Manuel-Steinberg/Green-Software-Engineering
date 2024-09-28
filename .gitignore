@@ -22,3 +22,9 @@ logs
 .DS_Store
 Thumbs.db
 green-metrics-tool
+
+# Graphite
+Chapter_9/docker/graphite/graphite.db
+
+# Sitespeed
+Chapter_9/sitespeed-result

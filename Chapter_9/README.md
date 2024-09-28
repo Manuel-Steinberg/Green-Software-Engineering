@@ -37,3 +37,11 @@ git clone <repository_url>
 cd sitespeed-cli
 npm install
 npm run start
+
+## Demo
+
+Replace "DOMAIN.TLD" with any website you like to test.
+
+```sh
+docker run --rm -v "$(pwd):/sitespeed.io" --network host sitespeedio/sitespeed.io:latest --graphite.host localhost https://DOMAIN.TLD --sustainable.enable --slug chapter_9_KPI --graphite.addSlugToKey true
+```
